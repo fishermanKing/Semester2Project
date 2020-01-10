@@ -14,6 +14,7 @@ public class BumperScript : MonoBehaviour
         {
             Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
             rb.AddForce((other.transform.position-transform.position)*hitStrength);
+            ScoreboardScript.Score += 100;
         }
     }
 }
