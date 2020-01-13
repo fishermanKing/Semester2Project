@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Machiene Sophia.unity
+- path: Assets/Scenes/Machiene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
