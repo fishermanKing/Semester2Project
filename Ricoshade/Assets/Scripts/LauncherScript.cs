@@ -16,8 +16,7 @@ public class LauncherScript : MonoBehaviour
     {
         if (Input.GetButton("Start"))
         {
-            print("Pull");
-            transform.localPosition = new Vector3(transform.localPosition.x, Mathf.Max(transform.localPosition.y-pullSpeed,-16), transform.localPosition.z);
+            transform.localPosition = (new Vector3(transform.localPosition.x, Mathf.Max(transform.localPosition.y-pullSpeed,-16), transform.localPosition.z));
             spring.spring = 0;
         }
         else
