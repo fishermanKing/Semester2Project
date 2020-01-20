@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObstacleDeploy : MonoBehaviour
 {
     public GameObject Obstacle1;
-    public float respawnTime = 1.0f;
+    public float respawnTime = 2.0f;
     private Vector3 screenBounds;
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,7 @@ public class ObstacleDeploy : MonoBehaviour
     private void spawnEnemy()
     {
         GameObject a = Instantiate(Obstacle1) as GameObject;
-        a.transform.position = new Vector2(screenBounds.x * -2, screenBounds.y * -2);
+         a.transform.position = new Vector3(screenBounds.x * -2, screenBounds.y * -2, screenBounds.z * -2);
     }
     IEnumerator ObstacleWave()
     {
