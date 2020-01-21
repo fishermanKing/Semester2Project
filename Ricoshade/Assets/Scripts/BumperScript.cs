@@ -16,7 +16,7 @@ public class BumperScript : MonoBehaviour
             Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
             //Vector3 temp = (other.transform.position - transform.position);
             Vector3 newForce = new Vector3((other.transform.position - transform.position).x, (other.transform.position - transform.position).y, 0);
-            rb.AddForce((transform.parent.transform.rotation*newForce) * hitStrength);//Parent rotation * direction*force
+            rb.AddForce((newForce) * hitStrength);
             ScoreboardScript.Score += points;
         }
     }
