@@ -16,7 +16,7 @@ public class ObstacleDeploy : MonoBehaviour
     private void spawnEnemy()
     {
         GameObject a = Instantiate(Obstacle1) as GameObject;
-         a.transform.position = new Vector3(screenBounds.x * -2, screenBounds.y * -2, screenBounds.z * -2);
+         a.transform.position = new Vector3(screenBounds.x * -1, screenBounds.y * -1, screenBounds.z * -1);
     }
     IEnumerator ObstacleWave()
     {
