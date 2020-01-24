@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\gravityScript.cs" />
     <Compile Include="Assets\Scripts\LauncherScript.cs" />
     <Compile Include="Assets\Scripts\LightBumperScript.cs" />
+    <Compile Include="Assets\Scripts\LoseRespawn.cs" />
     <Compile Include="Assets\Scripts\ObstacleDeploy.cs" />
     <Compile Include="Assets\Scripts\ObstacleGeneration.cs" />
     <Compile Include="Assets\Scripts\ObstacleMovementScript.cs" />
