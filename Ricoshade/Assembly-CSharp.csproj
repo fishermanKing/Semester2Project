@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\BumperScript.cs" />
     <Compile Include="Assets\Scripts\FlipperScript.cs" />
     <Compile Include="Assets\Scripts\gravityScript.cs" />
+    <Compile Include="Assets\Scripts\killScript.cs" />
     <Compile Include="Assets\Scripts\LauncherScript.cs" />
     <Compile Include="Assets\Scripts\LightBumperScript.cs" />
     <Compile Include="Assets\Scripts\ObstacleDeploy.cs" />

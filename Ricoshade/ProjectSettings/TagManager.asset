@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pinball
+  - Obstacle
+  - ObstacleBoard
   layers:
   - Default
   - TransparentFX
