@@ -10,6 +10,7 @@ public class LightBumperScript : MonoBehaviour
     void Start()
     {
         myLight = GetComponent<Light>();
+        myLight.enabled = lightOn;
     }
 
     // Update is called once per frame
