@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 74
+  controlID: 124
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 344}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 228
+  controlID: 188
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,8 +243,8 @@ MonoBehaviour:
     y: 0
     width: 653
     height: 735
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 494}
   m_MaxSize: {x: 22012, y: 14044}
   vertical: 0
-  controlID: 302
+  controlID: 187
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.7974167, y: 10.275341, z: -18.779463}
+    m_Target: {x: -0.43373227, y: 13.425185, z: -20.205742}
     speed: 2
-    m_Value: {x: -0.7974167, y: 10.275341, z: -18.779463}
+    m_Value: {x: -0.43373227, y: 13.425185, z: -20.205742}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -574,9 +574,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.32082766, y: -0.06335739, z: 0.021353297, w: -0.94490874}
+    m_Target: {x: -0.363031, y: -0.062390804, z: 0.024062918, w: -0.9295505}
     speed: 2
-    m_Value: {x: -0.32081875, y: -0.06193212, z: 0.020869393, w: -0.9448832}
+    m_Value: {x: -0.36293513, y: -0.06377463, z: 0.024603415, w: -0.9293039}
   m_Size:
     m_Target: 2.2545624
     speed: 2
@@ -778,9 +778,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8cfbffff9031000008320000
+      m_SelectedIDs: 6a310000
+      m_LastClickedID: 12650
+      m_ExpandedIDs: 80f0ffff8cfbffffc03100001c320000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -842,19 +842,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Materials
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Graphic.SJH519-000W\Documents\GitHub\Semester2Project\Ricoshade
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b22f0000
-    m_LastClickedID: 12210
+    m_SelectedIDs: f62c0000
+    m_LastClickedID: 11510
     m_ExpandedIDs: 00000000d42b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
