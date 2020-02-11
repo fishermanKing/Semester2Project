@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0a6f7bd38cd554f816e0c1a2394c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitStrength: 1600
+  hitStrength: 2000
   points: 100
 --- !u!54 &-6595041132285957509
 Rigidbody:

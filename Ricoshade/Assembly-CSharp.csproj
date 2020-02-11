@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\killScript.cs" />
     <Compile Include="Assets\Scripts\LauncherScript.cs" />
     <Compile Include="Assets\Scripts\LightBumperScript.cs" />
+    <Compile Include="Assets\Scripts\LightColourChangeScript.cs" />
     <Compile Include="Assets\Scripts\LoseRespawn.cs" />
     <Compile Include="Assets\Scripts\ObstacleDeploy.cs" />
     <Compile Include="Assets\Scripts\ObstacleGeneration.cs" />

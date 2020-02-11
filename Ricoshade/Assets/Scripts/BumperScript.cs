@@ -15,8 +15,10 @@ public class BumperScript : MonoBehaviour
         {
             Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
             //Vector3 temp = (other.transform.position - transform.position);
-            Vector3 newForce = new Vector3((other.transform.position - transform.position).x, (other.transform.position - transform.position).y, 0);
-            rb.AddForce((newForce) * hitStrength);
+            //Vector3 newForce = new Vector3((other.transform.position - transform.position).x, (other.transform.position - transform.position).y, 0); //No Z Morce
+            Vector3 newForce = new Vector3((other.transform.position - transform.position).x, 0, (other.transform.position - transform.position).z); //No y Force
+            //Vector3 newForce = other.transform.position - transform.position;
+            rb.AddForce((newForce) * 22000);
             ScoreboardScript.Score += points;
         }
     }
