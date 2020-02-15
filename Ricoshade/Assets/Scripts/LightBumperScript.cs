@@ -7,6 +7,7 @@ public class LightBumperScript : MonoBehaviour
     // Start is called before the first frame update
     public bool lightOn = false;
     Light myLight;
+    float fadeRate = 2;
     void Start()
     {
         myLight = GetComponent<Light>();
@@ -20,5 +21,21 @@ public class LightBumperScript : MonoBehaviour
         {
             myLight.enabled = !myLight.enabled;
         }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == ("Kill") & myLight.enabled)
+        {
+            StartCoroutine(fade());
+        }
+    }
+    private IEnumerator fade()
+    {
+        while(myLight.intensity > 0)
+        {
+            myLight.intensity -= fadeRate * Time.deltaTime;
+            yield return null;
+        }
+        myLight.enabled = false;
     }
 }
