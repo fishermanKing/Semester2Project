@@ -27,6 +27,8 @@ public class ObstacleGeneration : MonoBehaviour
     }
     private GameObject GetObstacles(GameObject[] array)
     {
-        return array[Random.Range(0, array.Length)];
+        int r = Random.Range(0, array.Length);
+        print(r.ToString());
+        return array[r];
     }
 }
