@@ -7,6 +7,8 @@ public class Pinball : MonoBehaviour
     [SerializeField] private float globalGravity = 9.81f;
     [SerializeField] private float gravityScale = 1.0f;
 
+    public bool warpSpeed = false;
+
     Rigidbody rb;
 
     // Start is called before the first frame update
@@ -22,5 +24,11 @@ public class Pinball : MonoBehaviour
     {
         Vector3 gravity = globalGravity * gravityScale * -Vector3.up;
         rb.AddForce(gravity, ForceMode.Acceleration);
+
+        if(warpSpeed)
+        {
+            warpSpeed = false;
+            rb.velocity = rb.velocity * 2;
+        }
     }
 }
