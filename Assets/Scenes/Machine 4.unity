@@ -467,12 +467,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2123169385}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &303157971 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 753611509245748404, guid: 0887bdd74a41bba4890fb77aa2cb32ce,
-    type: 3}
-  m_PrefabInstance: {fileID: 2123169385}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &303157972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11826,10 +11820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e1e74bac52d7049ab5b6013547b302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinball: {fileID: 303157971}
-  respawn: {fileID: 410126}
-  pinballLives: 100
-  playable: {fileID: 303157970}
 --- !u!1 &1170996231 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4242568604222152597, guid: 96f251f5e7d53be48bfc7c6888732e44,
