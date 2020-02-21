@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.05660379, g: 0.0542008, b: 0.0542008, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.3
@@ -467,12 +467,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2123169385}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &303157971 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 753611509245748404, guid: 0887bdd74a41bba4890fb77aa2cb32ce,
-    type: 3}
-  m_PrefabInstance: {fileID: 2123169385}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &303157972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,10 +746,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  transition: 0
+  leveltransition:
+  - {fileID: 5136281728033890485, guid: a2d7d2b470611104f973c71e9e3c668d, type: 3}
+  - {fileID: 5136281728033890485, guid: 35a70823a0d91b548a7c12d86a40e19f, type: 3}
+  - {fileID: 5136281728033890485, guid: a2d7d2b470611104f973c71e9e3c668d, type: 3}
   level1:
-  - {fileID: 5136281728033890485, guid: bc427872e0341514fb2c1d30c8cb4ceb, type: 3}
-  - {fileID: 5136281728033890485, guid: 7e849729f5d6eb046a79d4f476e81905, type: 3}
-  - {fileID: 5136281728033890485, guid: 8b8e7f560291bce4f9c693622c6b463a, type: 3}
+  - {fileID: 5320745504797371121, guid: d3b93384ef6f99d40817604fc960b8b5, type: 3}
+  - {fileID: 5320745504797371121, guid: d3b93384ef6f99d40817604fc960b8b5, type: 3}
+  - {fileID: 5320745504797371121, guid: d3b93384ef6f99d40817604fc960b8b5, type: 3}
   currentLevel: 1
 --- !u!4 &345439658
 Transform:
@@ -777,7 +776,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24878
+  m_Name: pb_Mesh17064
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1120,7 +1119,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24814
+  m_Name: pb_Mesh17000
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1283,7 +1282,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24788
+  m_Name: pb_Mesh16974
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11826,10 +11825,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e1e74bac52d7049ab5b6013547b302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinball: {fileID: 303157971}
-  respawn: {fileID: 410126}
-  pinballLives: 100
-  playable: {fileID: 303157970}
 --- !u!1 &1170996231 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4242568604222152597, guid: 96f251f5e7d53be48bfc7c6888732e44,
@@ -22488,7 +22483,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24838
+  m_Name: pb_Mesh17028
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

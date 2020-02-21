@@ -214,6 +214,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.71772426
       objectReference: {fileID: 0}
+    - target: {fileID: 2543817889387791089, guid: 987984391e6940c42a856df44b40ceed,
+        type: 3}
+      propertyPath: lightOn
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6271235129207299780, guid: 987984391e6940c42a856df44b40ceed,
         type: 3}
       propertyPath: m_Enabled
@@ -234,11 +239,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6094646824624769032}
     m_Modifications:
-    - target: {fileID: 7753510509879421800, guid: 3f871245cc2c0f8489e58d99a7f11dc6,
-        type: 3}
-      propertyPath: m_Name
-      value: BumperClassic
-      objectReference: {fileID: 0}
     - target: {fileID: 6755779195487918459, guid: 3f871245cc2c0f8489e58d99a7f11dc6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -308,6 +308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753510509879421800, guid: 3f871245cc2c0f8489e58d99a7f11dc6,
+        type: 3}
+      propertyPath: m_Name
+      value: BumperClassic
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f871245cc2c0f8489e58d99a7f11dc6, type: 3}
