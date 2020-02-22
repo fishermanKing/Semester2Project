@@ -97,7 +97,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -213,7 +213,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e049382606a758841b4238fcc6f5bc88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -483,7 +483,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e049382606a758841b4238fcc6f5bc88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -620,6 +620,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 605818755}
     m_Modifications:
+    - target: {fileID: 7793051878119140477, guid: 60750d7e777f43b41911e97e6d052fa5,
+        type: 3}
+      propertyPath: m_Name
+      value: LightBumper
+      objectReference: {fileID: 0}
     - target: {fileID: 7793051878119140466, guid: 60750d7e777f43b41911e97e6d052fa5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -674,11 +679,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7793051878119140477, guid: 60750d7e777f43b41911e97e6d052fa5,
-        type: 3}
-      propertyPath: m_Name
-      value: LightBumper
       objectReference: {fileID: 0}
     - target: {fileID: 7793051878119140467, guid: 60750d7e777f43b41911e97e6d052fa5,
         type: 3}
@@ -779,7 +779,7 @@ PrefabInstance:
     - target: {fileID: 8389527911096550648, guid: 3f6e34356fde51043bbd69d3288c03a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8389527911096550648, guid: 3f6e34356fde51043bbd69d3288c03a9,
         type: 3}
@@ -804,7 +804,7 @@ PrefabInstance:
     - target: {fileID: 8389527911096550655, guid: 3f6e34356fde51043bbd69d3288c03a9,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -5.1989164
+      value: -4.6989164
       objectReference: {fileID: 0}
     - target: {fileID: 8389527911096550655, guid: 3f6e34356fde51043bbd69d3288c03a9,
         type: 3}
@@ -814,7 +814,7 @@ PrefabInstance:
     - target: {fileID: 8389527911096550655, guid: 3f6e34356fde51043bbd69d3288c03a9,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -10.209609
+      value: -10.397283
       objectReference: {fileID: 0}
     - target: {fileID: 8389527911096550655, guid: 3f6e34356fde51043bbd69d3288c03a9,
         type: 3}
@@ -5990,7 +5990,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e049382606a758841b4238fcc6f5bc88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10978,7 +10978,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e049382606a758841b4238fcc6f5bc88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11027,6 +11027,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 605818755}
     m_Modifications:
+    - target: {fileID: 7793051878119140477, guid: 15943067b5a64824385b51ccdea26b45,
+        type: 3}
+      propertyPath: m_Name
+      value: Bumper (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7793051878119140466, guid: 15943067b5a64824385b51ccdea26b45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11081,11 +11086,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7793051878119140477, guid: 15943067b5a64824385b51ccdea26b45,
-        type: 3}
-      propertyPath: m_Name
-      value: Bumper (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15943067b5a64824385b51ccdea26b45, type: 3}
@@ -11317,7 +11317,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e049382606a758841b4238fcc6f5bc88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11641,6 +11641,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 605818755}
     m_Modifications:
+    - target: {fileID: 7793051878119140477, guid: 60750d7e777f43b41911e97e6d052fa5,
+        type: 3}
+      propertyPath: m_Name
+      value: LightBumper (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7793051878119140466, guid: 60750d7e777f43b41911e97e6d052fa5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11679,7 +11684,7 @@ PrefabInstance:
     - target: {fileID: 7793051878119140466, guid: 60750d7e777f43b41911e97e6d052fa5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7793051878119140466, guid: 60750d7e777f43b41911e97e6d052fa5,
         type: 3}
@@ -11695,11 +11700,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7793051878119140477, guid: 60750d7e777f43b41911e97e6d052fa5,
-        type: 3}
-      propertyPath: m_Name
-      value: LightBumper (1)
       objectReference: {fileID: 0}
     - target: {fileID: -2966883744770318924, guid: 60750d7e777f43b41911e97e6d052fa5,
         type: 3}
@@ -11757,7 +11757,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e049382606a758841b4238fcc6f5bc88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12173,13 +12173,23 @@ PrefabInstance:
     - target: {fileID: 4979619220565602817, guid: 0edea58050cc6684c8e2233b535f05f9,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.0000009536743
+      value: 0.0000019073486
       objectReference: {fileID: 0}
     - target: {fileID: 4979619220565602817, guid: 0edea58050cc6684c8e2233b535f05f9,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -11.740002
+      value: -12.700003
       objectReference: {fileID: 0}
+    - target: {fileID: 4979619220565602817, guid: 0edea58050cc6684c8e2233b535f05f9,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 9.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979619220565602819, guid: 0edea58050cc6684c8e2233b535f05f9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e049382606a758841b4238fcc6f5bc88, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0edea58050cc6684c8e2233b535f05f9, type: 3}
 --- !u!1001 &7793051877434397706
@@ -12189,6 +12199,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 605818755}
     m_Modifications:
+    - target: {fileID: 7793051878119140477, guid: 15943067b5a64824385b51ccdea26b45,
+        type: 3}
+      propertyPath: m_Name
+      value: Bumper
+      objectReference: {fileID: 0}
     - target: {fileID: 7793051878119140466, guid: 15943067b5a64824385b51ccdea26b45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12243,11 +12258,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7793051878119140477, guid: 15943067b5a64824385b51ccdea26b45,
-        type: 3}
-      propertyPath: m_Name
-      value: Bumper
       objectReference: {fileID: 0}
     - target: {fileID: 7793051878119140467, guid: 15943067b5a64824385b51ccdea26b45,
         type: 3}
@@ -12306,7 +12316,7 @@ PrefabInstance:
     - target: {fileID: 8389527911096550648, guid: 3f6e34356fde51043bbd69d3288c03a9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8389527911096550648, guid: 3f6e34356fde51043bbd69d3288c03a9,
         type: 3}
@@ -12332,6 +12342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -10.209609
+      objectReference: {fileID: 0}
+    - target: {fileID: 8389527911096550655, guid: 3f6e34356fde51043bbd69d3288c03a9,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 5.312768
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f6e34356fde51043bbd69d3288c03a9, type: 3}
