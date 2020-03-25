@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 5392681149796090470}
   - component: {fileID: 1867357241296912031}
   - component: {fileID: 5009589281118998216}
+  - component: {fileID: 1637713099349327402}
   m_Layer: 0
   m_Name: TargetRICO
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,5 +91,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0a6f7bd38cd554f816e0c1a2394c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitStrength: 0
+  hitStrength: 1
   points: 100
+--- !u!64 &1637713099349327402
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132567605219379779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 973877516759717424, guid: d54f41ee6dcdd3c4898cfdb5468f04e2, type: 3}
