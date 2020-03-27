@@ -7,12 +7,15 @@ public class Bumper : MonoBehaviour
     public float bumperForce = 10f;
     //public GameObject ball;
     private ScreenShake shaker;
+    FMOD.Studio.EventInstance bumperCollision;
 
     // Start is called before the first frame update
     void Start()
     {
         //ball = GameObject.FindGameObjectWithTag("Pinball");
         shaker = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ScreenShake>();
+        bumperCollision = FMODUnity.RuntimeManager.CreateInstance("event:/Bumper");
+
     }
 
     //public void OnTriggerEnter(Collider other)
@@ -33,6 +36,7 @@ public class Bumper : MonoBehaviour
                 StartCoroutine(shaker.Shake(0.15f, 0.4f));
                 contact.otherCollider.attachedRigidbody.AddForce(-1 * contact.normal * bumperForce, ForceMode.Impulse);
             }
+            bumperCollision.start();
         }
     }
 }
