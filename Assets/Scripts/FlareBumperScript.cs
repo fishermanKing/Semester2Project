@@ -2,40 +2,46 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightBumperScript : MonoBehaviour
+public class FlareBumperScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public bool lightOn = false;
     Light myLight;
-    float fadeRate = 2;
+    float flareRate = 16;
+    float flareDecay = 8;
+    private bool flareOn = false;
+    public float flareMax;
+    FMOD.Studio.EventInstance flareCollision;
     void Start()
     {
         myLight = GetComponent<Light>();
-        myLight.enabled = lightOn;
+        myLight.enabled = true;
+        myLight.intensity = 0;
+        flareCollision = FMODUnity.RuntimeManager.CreateInstance("event:/Flare");
     }
 
     // Update is called once per frame
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == ("Pinball"))
+        if (other.gameObject.tag == ("Pinball") & !flareOn)
         {
-            myLight.enabled = !myLight.enabled;
+            StartCoroutine(flare());
+            flareCollision.start();
         }
+        
     }
-    private void OnTriggerEnter(Collider other)
+    private IEnumerator flare()
     {
-        if (other.gameObject.tag == ("Kill") & myLight.enabled)
+        flareOn = true;
+        while(myLight.intensity < flareMax)
         {
-            StartCoroutine(fade());
-        }
-    }
-    private IEnumerator fade()
-    {
-        while(myLight.intensity > 0)
-        {
-            myLight.intensity -= fadeRate * Time.deltaTime;
+            myLight.intensity += flareRate * Time.deltaTime;
             yield return null;
         }
-        myLight.enabled = false;
+        while (myLight.intensity > 0)
+        {
+            myLight.intensity -= flareDecay * Time.deltaTime;
+            yield return null;
+        }
+        flareOn = false;
     }
 }

@@ -32,9 +32,9 @@ public class Bumper : MonoBehaviour
         {
             foreach(ContactPoint contact in collision.contacts)
             {
-                print(contact.thisCollider.name + " hit " + contact.otherCollider.attachedRigidbody.velocity);
+                //print(contact.thisCollider.name + " hit " + contact.otherCollider.attachedRigidbody.velocity);
                 StartCoroutine(shaker.Shake(0.15f, 0.4f));
-                contact.otherCollider.attachedRigidbody.AddForce(-1 * contact.normal * bumperForce, ForceMode.Impulse);
+                //contact.otherCollider.attachedRigidbody.AddForce(-1 * contact.normal * bumperForce, ForceMode.Impulse);
             }
             bumperCollision.start();
         }

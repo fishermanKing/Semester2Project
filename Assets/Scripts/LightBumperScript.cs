@@ -2,42 +2,58 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlareBumperScript : MonoBehaviour
+public class LightBumperScript : MonoBehaviour
 {
     // Start is called before the first frame update
+    public bool lightOn = false;
     Light myLight;
-    float flareRate = 16;
-    float flareDecay = 8;
-    private bool flareOn = false;
-    public float flareMax;
+    float fadeRate = 2;
+    FMOD.Studio.EventInstance lightCollision;
     void Start()
     {
         myLight = GetComponent<Light>();
-        myLight.enabled = true;
-        myLight.intensity = 0;
+        myLight.enabled = lightOn;
+        lightCollision = FMODUnity.RuntimeManager.CreateInstance("event:/Light");
+        if (myLight.enabled)
+        {
+            lightCollision.start();
+        }
     }
 
     // Update is called once per frame
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == ("Pinball") & !flareOn)
+        if (other.gameObject.tag == ("Pinball"))
         {
-            StartCoroutine(flare());
+            myLight.enabled = !myLight.enabled;
+        }
+        if (myLight.enabled)
+        {
+            lightCollision.start();
+        }
+        else
+        {
+            lightCollision.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         }
     }
-    private IEnumerator flare()
+    private void OnTriggerEnter(Collider other)
     {
-        flareOn = true;
-        while(myLight.intensity < flareMax)
+        if (other.gameObject.tag == ("Kill") & myLight.enabled)
         {
-            myLight.intensity += flareRate * Time.deltaTime;
+            StartCoroutine(fade());
+        }
+    }
+    private IEnumerator fade()
+    {
+        while(myLight.intensity > 0)
+        {
+            myLight.intensity -= fadeRate * Time.deltaTime;
             yield return null;
         }
-        while (myLight.intensity > 0)
+        if (myLight.enabled)
         {
-            myLight.intensity -= flareDecay * Time.deltaTime;
-            yield return null;
+            lightCollision.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
-        flareOn = false;
+        myLight.enabled = false;
     }
 }
