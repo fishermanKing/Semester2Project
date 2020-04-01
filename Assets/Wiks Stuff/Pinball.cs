@@ -4,31 +4,102 @@ using UnityEngine;
 
 public class Pinball : MonoBehaviour
 {
-    [SerializeField] private float globalGravity = 9.81f;
-    [SerializeField] private float gravityScale = 1.0f;
+    public const int numOfBalls = 20;
+    List<GameObject> newBalls; 
+    Vector3 startPoint;
+    float radius = 5f;
+    float moveSpeed = 30f;
 
-    public bool warpSpeed = false;
-
-    Rigidbody rb;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        rb.useGravity = false;
-        rb.maxAngularVelocity = 1000;
+        newBalls = new List<GameObject>();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        Vector3 gravity = globalGravity * gravityScale * -Vector3.up;
-        rb.AddForce(gravity, ForceMode.Acceleration);
-
-        if(warpSpeed)
+    private void Update()
+    { 
+        if(Input.GetKeyDown(KeyCode.Q))
         {
-            warpSpeed = false;
-            rb.velocity = rb.velocity * 2;
+            StartCoroutine(SuperBallPowerup());
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            ChangeLayer();
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            DestroyBalls();
+        }
+    }
+
+    void SpawnBalls(int amount)
+    {
+        float angleStep = 360f / numOfBalls;
+        float angle = 0f;
+
+        for (int i=0; i<=numOfBalls -1; i++)
+        {
+            float ballDirXPos = startPoint.x + Mathf.Sin((angle * Mathf.PI) / 180) * radius;
+            float ballDirZPos = startPoint.z + Mathf.Cos((angle * Mathf.PI) / 180) * radius;
+
+            Vector3 ballVector = new Vector3(ballDirXPos, startPoint.y, ballDirZPos);
+            Vector3 ballMoveDir = (ballVector - startPoint).normalized * moveSpeed;
+
+            var spawn = Instantiate(this.gameObject, startPoint, Quaternion.identity);
+            //spawn.layer = default;
+            spawn.GetComponent<Rigidbody>().velocity = new Vector3(ballMoveDir.x, 0, ballMoveDir.z);
+            //spawn.GetComponent<Pinball>().enabled = false;
+            newBalls.Add(spawn);
+
+            angle += angleStep;
+        }
+    }
+
+    void DestroyBalls()
+    {
+        foreach (GameObject obj in newBalls)
+        {
+            Destroy(obj.gameObject, 0f);
+        }
+        newBalls.Clear();
+    }
+
+    void ChangeLayer()
+    {
+        foreach (GameObject obj in newBalls)
+        {
+            obj.layer = default;
+        }
+        gameObject.layer = default;
+    }
+
+    IEnumerator SuperBallPowerup()
+    {
+        gameObject.layer = 9;
+        startPoint = transform.position;
+        SpawnBalls(numOfBalls);
+        Time.timeScale = 0.15f;
+        yield return new WaitForSeconds(0.2f);
+        Time.timeScale = 1f;
+        ChangeLayer();
+        yield return null;
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if(collision.gameObject.layer == 9)
+        {
+            Physics.IgnoreLayerCollision(0,9);
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if(collision.gameObject.layer == 9)
+        {
+            Debug.Log("Exit");
+            gameObject.layer = default;
         }
     }
 }
