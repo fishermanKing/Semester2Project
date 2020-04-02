@@ -13,6 +13,7 @@ public class Pinball : MonoBehaviour
     private void Start()
     {
         newBalls = new List<GameObject>();
+        FloatingTextController.Initialize();
     }
 
     private void Update()
