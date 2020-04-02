@@ -40,6 +40,7 @@ public class Bumper : MonoBehaviour
 
     public void AddScore(Vector3 pos)
     {
+        //scoreAmount = Random.Range(60, 100);
         FloatingTextController.CreateFloatingText(scoreAmount.ToString(), pos);
     }
 }

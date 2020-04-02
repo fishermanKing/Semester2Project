@@ -23,6 +23,11 @@ public class Pinball : MonoBehaviour
             StartCoroutine(SuperBallPowerup());
         }
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            StartCoroutine(TripleBallPowerup());
+        }
+
         if (Input.GetKeyDown(KeyCode.W))
         {
             ChangeLayer();
@@ -57,6 +62,28 @@ public class Pinball : MonoBehaviour
         }
     }
 
+    void SpawnTwoBalls()
+    {
+        float angle = -45f;
+
+        for (int i = 0; i <= 1; i++)
+        {
+            float ballDirXPos = startPoint.x + Mathf.Sin((angle * Mathf.PI) / 180) * radius;
+            float ballDirZPos = startPoint.z + Mathf.Cos((angle * Mathf.PI) / 180) * radius;
+
+            Vector3 ballVector = new Vector3(ballDirXPos, startPoint.y, ballDirZPos);
+            Vector3 ballMoveDir = (ballVector - startPoint).normalized * moveSpeed;
+
+            var spawn = Instantiate(this.gameObject, startPoint, Quaternion.identity);
+            //spawn.layer = default;
+            spawn.GetComponent<Rigidbody>().velocity = new Vector3(ballMoveDir.x, 0, ballMoveDir.z);
+            //spawn.GetComponent<Pinball>().enabled = false;
+            newBalls.Add(spawn);
+
+            angle = 45;
+        }
+    }
+
     void DestroyBalls()
     {
         foreach (GameObject obj in newBalls)
@@ -80,6 +107,18 @@ public class Pinball : MonoBehaviour
         gameObject.layer = 9;
         startPoint = transform.position;
         SpawnBalls(numOfBalls);
+        Time.timeScale = 0.15f;
+        yield return new WaitForSeconds(0.2f);
+        Time.timeScale = 1f;
+        ChangeLayer();
+        yield return null;
+    }
+
+    IEnumerator TripleBallPowerup()
+    {
+        gameObject.layer = 9;
+        startPoint = transform.position;
+        SpawnTwoBalls();
         Time.timeScale = 0.15f;
         yield return new WaitForSeconds(0.2f);
         Time.timeScale = 1f;
