@@ -3,7 +3,6 @@
 # =============== #
 [Tt]emp/
 [Oo]bj/
-[Bb]uild
 /[Bb]uilds/
 /[Ll]ibrary/
 sysinfo.txt
@@ -46,5 +45,7 @@ Corridor/Library/metadata/
 
 # FMOD files
 Assets/Plugins/FMOD/Resources/FMODStudioCache.asset
-Assets/StreamingAssets/*.bank
+Assets/Plugins/FMOD/Resources/FMODStudioCache.asset.meta
+Assets/StreamingAssets/**/*.bank
+Assets/StreamingAssets/**/*.bank.meta
 fmod_editor.log
