@@ -15,7 +15,7 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets\FMod\Ricoshade\Ricoshade.fspro
+  sourceProjectPath: Assets/FMod/Ricoshade/Ricoshade.fspro
   sourceBankPath: Assets\FMod\Ricoshade\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
@@ -76,7 +76,9 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - Collision
   BanksToLoad: []
   LiveUpdatePort: 9264
