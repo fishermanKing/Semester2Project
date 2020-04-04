@@ -3,7 +3,6 @@
 # =============== #
 [Tt]emp/
 [Oo]bj/
-[Bb]uild
 /[Bb]uilds/
 /[Ll]ibrary/
 sysinfo.txt
@@ -44,8 +43,9 @@ ehthumbs.db
 Corridor/Library/ShaderCache/
 Corridor/Library/metadata/
 
-# =================== #
-# HErC's Placeholders #
-# =================== #
-
-*.pptx*
+# FMOD files
+Assets/Plugins/FMOD/Resources/FMODStudioCache.asset
+Assets/Plugins/FMOD/Resources/FMODStudioCache.asset.meta
+Assets/StreamingAssets/**/*.bank
+Assets/StreamingAssets/**/*.bank.meta
+fmod_editor.log
