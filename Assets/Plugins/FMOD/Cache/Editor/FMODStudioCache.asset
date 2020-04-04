@@ -16,7 +16,7 @@ MonoBehaviour:
   Min: 0
   Max: 30
   Default: 7
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8231431048516694389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,6 +71,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6143877681422350968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Collision/hitMagnitude
+  m_EditorClassIdentifier: 
+  Name: hitMagnitude
+  Min: 0
+  Max: 30
+  Default: 7
+  Exists: 1
 --- !u!114 &-5234868742428994990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,7 +159,7 @@ MonoBehaviour:
   lastModified: 637216187582829285
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3032609034532728526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,7 +177,7 @@ MonoBehaviour:
   lastModified: 637216187582839305
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1341011792528167046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,6 +214,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-790100716772517922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637216199427594014
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-538461830157382888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,7 +289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMod/Ricoshade/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637216187582849336
+  lastModified: 637216199427643984
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -274,8 +309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -40057643443292269}
-  - {fileID: -4267369185679001594}
-  - {fileID: -3032609034532728526}
+  - {fileID: -790100716772517922}
+  - {fileID: 199119946769643073}
   EditorEvents:
   - {fileID: 9035520955264016381}
   - {fileID: 5338140723624785548}
@@ -283,10 +318,10 @@ MonoBehaviour:
   - {fileID: 3044892418357265370}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -3032609034532728526}
+  - {fileID: 199119946769643073}
   StringsBanks:
   - {fileID: -40057643443292269}
-  stringsBankWriteTime: 637216187582849336
+  stringsBankWriteTime: 637216199427643984
   cacheVersion: 3
 --- !u!114 &194333194895581109
 MonoBehaviour:
@@ -306,6 +341,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &199119946769643073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637216199427603874
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &713396235988420079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,7 +481,7 @@ MonoBehaviour:
   Path: event:/Flare
   guid: ba41a2d701afbf4e9470149bed67a181
   Banks:
-  - {fileID: -4267369185679001594}
+  - {fileID: -790100716772517922}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -528,7 +581,7 @@ MonoBehaviour:
   Path: event:/Light
   guid: 9290352572730d469f40303f7d377785
   Banks:
-  - {fileID: -4267369185679001594}
+  - {fileID: -790100716772517922}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -568,12 +621,12 @@ MonoBehaviour:
   Path: event:/Collision
   guid: e8134c6bf9354e4ea241137a5d95d221
   Banks:
-  - {fileID: -4267369185679001594}
+  - {fileID: -790100716772517922}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -8417191496810432938}
+  - {fileID: -6143877681422350968}
   MinDistance: 0
   MaxDistance: 0
   Length: 298
@@ -663,7 +716,7 @@ MonoBehaviour:
   Path: event:/Bumper
   guid: 71cab83ee7446b45bb3d2b7c490e317a
   Banks:
-  - {fileID: -4267369185679001594}
+  - {fileID: -790100716772517922}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
