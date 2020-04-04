@@ -104,7 +104,7 @@ public class Pinball : MonoBehaviour
 
     IEnumerator SuperBallPowerup()
     {
-        gameObject.layer = 9;
+        gameObject.layer = 10;
         startPoint = transform.position;
         SpawnBalls(numOfBalls);
         Time.timeScale = 0.15f;
@@ -116,7 +116,7 @@ public class Pinball : MonoBehaviour
 
     IEnumerator TripleBallPowerup()
     {
-        gameObject.layer = 9;
+        gameObject.layer = 10;
         startPoint = transform.position;
         SpawnTwoBalls();
         Time.timeScale = 0.15f;
@@ -128,15 +128,15 @@ public class Pinball : MonoBehaviour
 
     private void OnCollisionStay(Collision collision)
     {
-        if(collision.gameObject.layer == 9)
+        if(collision.gameObject.layer == 10)
         {
-            Physics.IgnoreLayerCollision(0,9);
+            Physics.IgnoreLayerCollision(0,10);
         }
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        if(collision.gameObject.layer == 9)
+        if(collision.gameObject.layer == 10)
         {
             Debug.Log("Exit");
             gameObject.layer = default;

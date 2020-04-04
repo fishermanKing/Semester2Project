@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7227952225272952087}
   - component: {fileID: 7227952225272952085}
   m_Layer: 0
-  m_Name: WPinball1
+  m_Name: Pinball
   m_TagString: Pinball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7227952225272952086}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.97, y: 0.89, z: 16.82}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6774697, y: 2.34, z: 18.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
