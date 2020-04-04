@@ -1,0 +1,620 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8231431048516694389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637213480933188997
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8112021074634502926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637213560731060450
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7369302069063426607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637213454551774146
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5234868742428994990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637209278449523619
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4954926372760021955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637213567737615052
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4720331926141325470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637213567737695081
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1341011792528167046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637213480785270745
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-919587456866314870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637213454551704102
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-538461830157382888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMod/Ricoshade/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637209278449663712
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 836
+  Exists: 1
+--- !u!114 &-57228731812908408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Collision
+  m_EditorClassIdentifier: 
+  Path: event:/Collision
+  guid: e8134c6bf9354e4ea241137a5d95d221
+  Banks:
+  - {fileID: -5234868742428994990}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 298
+--- !u!114 &-40057643443292269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637213569343787201
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 962
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -40057643443292269}
+  - {fileID: 2388652823466466267}
+  - {fileID: 2637173960689725274}
+  EditorEvents:
+  - {fileID: 9035520955264016381}
+  - {fileID: 5338140723624785548}
+  - {fileID: 4638824200235185669}
+  - {fileID: 3044892418357265370}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2637173960689725274}
+  StringsBanks:
+  - {fileID: -40057643443292269}
+  stringsBankWriteTime: 637213569343787201
+  cacheVersion: 3
+--- !u!114 &194333194895581109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637209278449523619
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &713396235988420079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Collision/hitMagnitude
+  m_EditorClassIdentifier: 
+  Name: hitMagnitude
+  Min: 7
+  Max: 15
+  Default: 7
+  Exists: 0
+--- !u!114 &1109899428772982572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637209278449613673
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2017117758766678954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637209297105204148
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2362632510820963109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637209278449613673
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2388652823466466267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637213569343667129
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2637173960689725274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637213569343747178
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3044892418357265370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Flare
+  m_EditorClassIdentifier: 
+  Path: event:/Flare
+  guid: ba41a2d701afbf4e9470149bed67a181
+  Banks:
+  - {fileID: 2388652823466466267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4800
+--- !u!114 &3098709599560658074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637213480785190708
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3223945260421822483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637213480933108944
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3231875088067803618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bumper
+  m_EditorClassIdentifier: 
+  Path: event:/Bumper
+  guid: 71cab83ee7446b45bb3d2b7c490e317a
+  Banks:
+  - {fileID: -5234868742428994990}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &4019091831092179732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637209297105114090
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4638824200235185669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Light
+  m_EditorClassIdentifier: 
+  Path: event:/Light
+  guid: 9290352572730d469f40303f7d377785
+  Banks:
+  - {fileID: 2388652823466466267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2400
+--- !u!114 &5291699602237248586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Collision/hitMagnitude
+  m_EditorClassIdentifier: 
+  Name: hitMagnitude
+  Min: 0
+  Max: 30
+  Default: 7
+  Exists: 1
+--- !u!114 &5338140723624785548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Collision
+  m_EditorClassIdentifier: 
+  Path: event:/Collision
+  guid: e8134c6bf9354e4ea241137a5d95d221
+  Banks:
+  - {fileID: 2388652823466466267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5291699602237248586}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 298
+--- !u!114 &5851317516970475328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637209296727150421
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5865417124699423340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637209296727030366
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8603489751706866439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637213560731140504
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8725366929067387701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Collision/hitMagnitude
+  m_EditorClassIdentifier: 
+  Name: hitMagnitude
+  Min: 0
+  Max: 15
+  Default: 7
+  Exists: 0
+--- !u!114 &9035520955264016381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bumper
+  m_EditorClassIdentifier: 
+  Path: event:/Bumper
+  guid: 71cab83ee7446b45bb3d2b7c490e317a
+  Banks:
+  - {fileID: 2388652823466466267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 600
