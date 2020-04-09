@@ -44,11 +44,13 @@ public class ObstacleGeneration : MonoBehaviour
     }
     private GameObject getTransition(GameObject[] array)
     {
+        int j = i;
         if (i+1 > array.Length)
         {
             transition = false;
             currentLevel += 1;
+            i = 0;
         }
-        return array[i];
+        return array[j];
     }
 }
