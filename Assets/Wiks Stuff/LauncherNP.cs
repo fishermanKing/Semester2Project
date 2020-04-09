@@ -26,4 +26,12 @@ public class LauncherNP : MonoBehaviour
             ball = other.gameObject;
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.tag == "Pinball")
+        {
+            ball = null;
+        }
+    }
 }
