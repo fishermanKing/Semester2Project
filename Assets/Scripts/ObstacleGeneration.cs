@@ -11,6 +11,7 @@ public class ObstacleGeneration : MonoBehaviour
     private int i = 0;
     public GameObject[] leveltransition;
     public GameObject[] level1;//All levels have to follow the syntax of level+currentlevel
+    public GameObject[] level2;
     public int currentLevel = 1;
     void Start()
     {

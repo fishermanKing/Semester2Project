@@ -16,7 +16,7 @@ MonoBehaviour:
   Min: 0
   Max: 30
   Default: 7
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8231431048516694389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   lastModified: 637216187582839305
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1341011792528167046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,6 +376,24 @@ MonoBehaviour:
   Max: 15
   Default: 7
   Exists: 0
+--- !u!114 &1095120679177679394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collision.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Collision.bank
+  SubDir: 
+  lastModified: 637213569343667129
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &1109899428772982572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -393,6 +411,23 @@ MonoBehaviour:
   lastModified: 637209278449613673
   LoadResult: 0
   FileSizes: []
+  Exists: 1
+--- !u!114 &1486185847745854505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Collision/hitMagnitude
+  m_EditorClassIdentifier: 
+  Name: hitMagnitude
+  Min: 0
+  Max: 30
+  Default: 7
   Exists: 1
 --- !u!114 &2017117758766678954
 MonoBehaviour:
@@ -589,6 +624,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2400
+--- !u!114 &5263928048800407534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/Ricoshade/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637213569343747178
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5291699602237248586
 MonoBehaviour:
   m_ObjectHideFlags: 0
