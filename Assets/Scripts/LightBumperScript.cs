@@ -16,7 +16,7 @@ public class LightBumperScript : MonoBehaviour
         lightCollision = FMODUnity.RuntimeManager.CreateInstance("event:/Light");
         if (myLight.enabled)
         {
-            lightCollision.start();
+            //lightCollision.start();
         }
     }
 

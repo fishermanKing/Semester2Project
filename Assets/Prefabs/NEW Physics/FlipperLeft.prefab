@@ -12,7 +12,7 @@ GameObject:
   m_Layer: 0
   m_Name: FlipperLeft
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -23,14 +23,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7819159970612336077}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: 0.649, z: -22}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: -7.9, y: -24.09, z: -1.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7819159970882976586}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1 &7819159970882976587
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 7819159970882976577}
   - component: {fileID: 7819159970882976582}
   - component: {fileID: 7819159970882976576}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FlipperLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,13 +60,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7819159970882976587}
-  m_LocalRotation: {x: -0.61237246, y: -0.3535534, z: -0.3535534, w: 0.61237246}
-  m_LocalPosition: {x: -0.34, y: 0, z: 1.29}
-  m_LocalScale: {x: 2, y: 2.5, z: 1.5}
+  m_LocalRotation: {x: -0.53729963, y: -0.8433915, z: 0, w: 0}
+  m_LocalPosition: {x: -1.15, y: 0.25, z: 0.8}
+  m_LocalScale: {x: 2, y: 3, z: 1.5}
   m_Children: []
   m_Father: {fileID: 7819159970612336076}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -60}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: -115}
 --- !u!33 &7819159970882976580
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -153,7 +153,7 @@ HingeJoint:
   m_Anchor: {x: -0.5, y: 0.25, z: 0}
   m_Axis: {x: 1, y: 0, z: 45}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -5.298734, y: 0.6489999, z: -21.888525}
+  m_ConnectedAnchor: {x: -7.947651, y: 2.250002, z: -23.750658}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -166,8 +166,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -90
-    max: 0
+    min: 0
+    max: 90
     bounciness: 0
     bounceMinVelocity: 0
     contactDistance: 0
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restPosition: 0
-  pressedPosition: -60
+  pressedPosition: 60
   hitStrength: 1000000
   flipperDamper: 10000
   FlipperSide: 0

@@ -14,7 +14,7 @@ public class LauncherNP : MonoBehaviour
         {
             if(Input.GetKeyUp(KeyCode.Space))
             {
-                ball.GetComponent<Rigidbody>().AddForce(power * Vector3.forward);
+                ball.GetComponent<Rigidbody>().AddForce(power * Vector3.forward, ForceMode.Impulse);
             }
         }
     }

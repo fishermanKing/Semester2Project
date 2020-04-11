@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bumper : MonoBehaviour
 {
     public float bumperForce = 10f;
+    public bool noScore = false;
     public float scoreAmount = 100f;
     //public GameObject ball;
     private ScreenShake shaker;
@@ -36,7 +37,11 @@ public class Bumper : MonoBehaviour
                 //print(contact.thisCollider.name + " hit " + contact.otherCollider.attachedRigidbody.velocity);
                 StartCoroutine(shaker.Shake(0.15f, 0.4f));
                 contact.otherCollider.attachedRigidbody.AddForce(-1 * contact.normal * bumperForce, ForceMode.Impulse);
-                AddScore(contact.point);
+
+                if(!noScore)
+                {
+                    AddScore(contact.point);
+                }
             }
             bumperCollision.start();
         }

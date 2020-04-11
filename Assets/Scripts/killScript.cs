@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class killScript : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Obstacle"){
-            other.enabled = false;
+        if(other.gameObject.tag == "Obstacle")
+        {
+            Debug.Log("HIT");
         }
     }
 }
