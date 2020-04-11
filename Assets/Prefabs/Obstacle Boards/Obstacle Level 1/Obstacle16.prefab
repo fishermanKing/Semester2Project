@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7191173675826952093}
   m_Layer: 11
   m_Name: Prism (3)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 6806142475136664389}
   m_Layer: 11
   m_Name: TargetRICO (6)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 4324336673369433520}
   m_Layer: 11
   m_Name: Prism (1)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 5119543676597331110}
   m_Layer: 11
   m_Name: TargetRICO (5)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -933,7 +933,7 @@ PrefabInstance:
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}

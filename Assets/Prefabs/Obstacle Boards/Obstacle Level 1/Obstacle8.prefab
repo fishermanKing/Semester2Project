@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9146539084189332556}
   m_Layer: 11
   m_Name: Prism
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 1101482200016997794}
   m_Layer: 11
   m_Name: TargetRICO (2)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 1276341633149618767}
   m_Layer: 11
   m_Name: TargetRICO (3)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -660,7 +660,7 @@ GameObject:
   - component: {fileID: 1302701170698499985}
   m_Layer: 11
   m_Name: Prism (1)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 5956907072075605271}
   m_Layer: 11
   m_Name: TargetRICO (1)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1039,7 +1039,7 @@ GameObject:
   - component: {fileID: 7986228097514685775}
   m_Layer: 11
   m_Name: TargetRICO
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1152,7 +1152,7 @@ PrefabInstance:
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}

@@ -8,7 +8,7 @@ public class killScript : MonoBehaviour
     {
         if(other.gameObject.tag == "Obstacle")
         {
-            Debug.Log("HIT");
+            other.GetComponent<ObstacleMovementScript>().isSinking = true;
         }
     }
 }

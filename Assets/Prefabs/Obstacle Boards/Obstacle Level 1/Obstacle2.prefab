@@ -164,6 +164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightBumperClassic (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1962940426615258828, guid: db5c2dbb91db8704c8f2d0130801f58d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -172,7 +177,7 @@ PrefabInstance:
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}
@@ -244,6 +249,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightBumperClassic
       objectReference: {fileID: 0}
+    - target: {fileID: 1962940426615258828, guid: db5c2dbb91db8704c8f2d0130801f58d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -252,7 +262,7 @@ PrefabInstance:
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3271471719209045215, guid: db5c2dbb91db8704c8f2d0130801f58d,
         type: 3}
