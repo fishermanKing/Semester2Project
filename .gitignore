@@ -43,7 +43,7 @@ ehthumbs.db
 Corridor/Library/ShaderCache/
 Corridor/Library/metadata/
 
-# FMOD files
+# FMOD files #
 Assets/Plugins/FMOD/Resources/FMODStudioCache.asset
 Assets/Plugins/FMOD/Resources/FMODStudioCache.asset.meta
 Assets/StreamingAssets/**/*.bank
