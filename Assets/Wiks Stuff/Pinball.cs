@@ -23,17 +23,17 @@ public class Pinball : MonoBehaviour
             StartCoroutine(SuperBallPowerup());
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             StartCoroutine(TripleBallPowerup());
         }
 
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            ChangeLayer();
-        }
+        //if (Input.GetKeyDown(KeyCode.W))
+        //{
+        //    ChangeLayer();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             DestroyBalls();
         }

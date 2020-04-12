@@ -13,8 +13,7 @@ public class LauncherGate : MonoBehaviour
 
     public void Open()
     {
-        Debug.Log("Open");
-        anim.ResetTrigger("Open");
+        anim.ResetTrigger("Close");
         anim.SetTrigger("Open");
     }
 
@@ -22,8 +21,9 @@ public class LauncherGate : MonoBehaviour
     {
         if(other.tag == "Pinball")
         {
-            anim.ResetTrigger("Close");
+            anim.ResetTrigger("Open");
             anim.SetTrigger("Close");
+            GameManager.Instance.StartObstacleSpawning();
         }
     }
 }

@@ -10,7 +10,13 @@ public class LoseRespawn : MonoBehaviour
     public int pinballLives = 3;
     public GameObject playable;
     [SerializeField] private LauncherGate gate;
-    
+    private ScreenShake shaker;
+
+    private void Start()
+    {
+        shaker = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ScreenShake>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -21,14 +27,20 @@ public class LoseRespawn : MonoBehaviour
         }
     }
 
+    public void Respawn()
+    {
+        Instantiate(pinball, respawn.position, respawn.rotation);
+        gate.Open();
+    }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Pinball")
         {
             //pinball.transform.position = respawn.transform.position;
             pinballLives--;
-            Instantiate(pinball, respawn.position, respawn.rotation);
-            gate.Open();
+            StartCoroutine(shaker.Shake(1.5f, 0.6f));
+            GameManager.Instance.StopObstacleSpawning();            
         }
     }
 }
