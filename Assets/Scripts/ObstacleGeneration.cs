@@ -88,7 +88,7 @@ public class ObstacleGeneration : MonoBehaviour
         {
             GameObject spawn = Instantiate(GetObstacles((GameObject[])this.GetType().GetField("level" + currentLevel.ToString()).GetValue(this)), gameObject.transform);
             obstacles.Add(spawn);
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(4f);
         }
         yield return null;
     }
