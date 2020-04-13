@@ -70,6 +70,7 @@ public class ObstacleGeneration : MonoBehaviour
     {
         StopAllCoroutines();
         speed = 0;
+        i = 0;
         StartCoroutine(Dissolve());
     }
 
@@ -84,13 +85,22 @@ public class ObstacleGeneration : MonoBehaviour
 
     IEnumerator SpawnObstacle()
     {
-        while(true)
+        GameObject spawn;
+        while (true)
         {
-            GameObject spawn = Instantiate(GetObstacles((GameObject[])this.GetType().GetField("level" + currentLevel.ToString()).GetValue(this)), gameObject.transform);
+            if (!transition)
+            {
+                spawn = Instantiate(GetObstacles((GameObject[])this.GetType().GetField("level" + currentLevel.ToString()).GetValue(this)), gameObject.transform);
+            }
+            else
+            {
+                spawn = Instantiate(getTransition(leveltransition), gameObject.transform);
+                i += 1;
+            }
+
             obstacles.Add(spawn);
             yield return new WaitForSeconds(4f);
         }
-        yield return null;
     }
 
     IEnumerator Dissolve()
